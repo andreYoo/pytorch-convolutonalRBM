@@ -1,2 +1,3 @@
-# pytorch-convolutonalRBM
-Convolutional RBM implemented with Pytorch
+# Convolutonal RBM
+Convolutional RBM implemented with Pytorch<\br>
+Including Simpel example with MNIST dataset
