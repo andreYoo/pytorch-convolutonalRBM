@@ -3,6 +3,7 @@ Single layer Convolutional RBM based on Pytorch Lib </br>
 (Original RBM is referred from https://github.com/GabrielBianconi/pytorch-rbm) </br>
 (Structural details is referred from "Convolutional Deep Belief Networks for Scalable Unsupervised Learning of Hierarchical Representations" of Lee et al.) </br>
 
+* Sigmoid function is replaced to the Leaky Rectified unit
 
 
 *This model consists of single CovRBM layers, and it is implemented roughly, so there are GPU memory management issues on this source code. We will address these issues sooner or later.
