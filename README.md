@@ -5,7 +5,7 @@ Single layer Convolutional RBM based on Pytorch Lib </br>
 
 
 
-*This model consists of single CovRBM layers, and it is impelmented roughly, so there is GPU memory management issues on this source code. We will address this issues sooner or later.
+*This model consists of single CovRBM layers, and it is implemented roughly, so there are GPU memory management issues on this source code. We will address these issues sooner or later.
 
 File configures
 .</br>
