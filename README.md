@@ -1,32 +1,53 @@
-# pytorch-gbrbm
-Gaussian Bernoulli RBM based on Pytorch Lib
-(Original RBM is referred from https://github.com/GabrielBianconi/pytorch-rbm)
+# pytorch-Convolutional RBM
+Single layer Convolutional RBM based on Pytorch Lib <\br>
+(Original RBM is referred from https://github.com/GabrielBianconi/pytorch-rbm) <\br>
+(Structural details is referred from "Convolutional Deep Belief Networks for Scalable Unsupervised Learning of Hierarchical Representations" of Lee et al.) <\br>
 
-Files tree
-├── gbrbm_example.py #Example code using MNIST dataset (including download code)
-├── gbrbm.py # GBRBM network code
-├── LICENSE 
-├── README.md
-└── utils.py # Bernoulli sampling, gaussian sampling code.
+
+
+*This model is impelmented roughly, so there is GPU memory management issues on this source code. We will address this issues sooner or later.
+
+File configures
+.<\br>
+├── convrbm_example.py <\br>
+├── convrbm.py <\br>
+├── data <\br>
+│   └── mnist <\br>
+│       └── MNIST <\br>
+│           ├── processed <\br>
+│           │   ├── test.pt <\br>
+│           │   └── training.pt <\br>
+│           └── raw <\br>
+│               ├── t10k-images-idx3-ubyte <\br>
+│               ├── t10k-images-idx3-ubyte.gz <\br>
+│               ├── t10k-labels-idx1-ubyte <\br>
+│               ├── t10k-labels-idx1-ubyte.gz <\br>
+│               ├── train-images-idx3-ubyte <\br>
+│               ├── train-images-idx3-ubyte.gz <\br> 
+│               ├── train-labels-idx1-ubyte <\br>
+│               └── train-labels-idx1-ubyte.gz <\br>
+├── LICENSE <\br>
+├── __pycache__ <\br>
+│   ├── convrbm.cpython-36.pyc <\br>
+│   └── utils.cpython-36.pyc <\br>
+├── README.md <\br>
+└── utils.py <\br>
 
 
 How to run
-python gbrbm_example.py
+python convrbm_example.py
 
 Running Output
 
 Loading dataset...
-Training RBM...
+Training ConvRBM...
 Epoch Error (epoch=0): 6593016.5000
-Epoch Error (epoch=1): 3434561.7500
+Epoch Error (epoch=1): :3434561.7500
 Epoch Error (epoch=2): 2627748.5000
 Epoch Error (epoch=3): 2355443.5000
-Epoch Error (epoch=4): 2217778.7500
-Epoch Error (epoch=5): 2132137.0000
-Epoch Error (epoch=6): 2072602.3750
-Epoch Error (epoch=7): 2028256.8750
-Epoch Error (epoch=8): 1992789.1250
 Epoch Error (epoch=9): 1962103.7500
+
+
 
 
 dependendies. 
