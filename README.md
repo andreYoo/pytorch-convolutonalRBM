@@ -5,7 +5,7 @@ Single layer Convolutional RBM based on Pytorch Lib </br>
 
 
 
-*This model is impelmented roughly, so there is GPU memory management issues on this source code. We will address this issues sooner or later.
+*This model consists of single CovRBM layers, and it is impelmented roughly, so there is GPU memory management issues on this source code. We will address this issues sooner or later.
 
 File configures
 .</br>
@@ -34,18 +34,18 @@ File configures
 └── utils.py </br>
 
 
-How to run
-python convrbm_example.py
+How to run</br>
+python convrbm_example.py</br>
 
-Running Output
+Running Output</br>
 
-Loading dataset...
-Training ConvRBM...
-Epoch Error (epoch=0): 6593016.5000
-Epoch Error (epoch=1): :3434561.7500
-Epoch Error (epoch=2): 2627748.5000
-Epoch Error (epoch=3): 2355443.5000
-Epoch Error (epoch=9): 1962103.7500
+Loading dataset...</br>
+Training ConvRBM...</br>
+Epoch Error (epoch=0): 6593016.5000</br>
+Epoch Error (epoch=1): :3434561.7500</br>
+Epoch Error (epoch=2): 2627748.5000</br>
+Epoch Error (epoch=3): 2355443.5000</br>
+Epoch Error (epoch=9): 1962103.7500</br>
 
 
 
