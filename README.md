@@ -1,7 +1,7 @@
 # pytorch-Convolutional RBM
-Single layer Convolutional RBM based on Pytorch Lib <\br>
-(Original RBM is referred from https://github.com/GabrielBianconi/pytorch-rbm) <\br>
-(Structural details is referred from "Convolutional Deep Belief Networks for Scalable Unsupervised Learning of Hierarchical Representations" of Lee et al.) <\br>
+Single layer Convolutional RBM based on Pytorch Lib </br>
+(Original RBM is referred from https://github.com/GabrielBianconi/pytorch-rbm) </br>
+(Structural details is referred from "Convolutional Deep Belief Networks for Scalable Unsupervised Learning of Hierarchical Representations" of Lee et al.) </br>
 
 
 
